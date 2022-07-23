@@ -1,0 +1,11 @@
+.app_cursor{
+    z-index: 1000;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--first-color);
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    position: fixed;
+}
