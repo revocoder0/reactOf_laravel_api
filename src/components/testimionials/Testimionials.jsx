@@ -1,6 +1,7 @@
 import React from 'react'
 import './Testimionials.css'
-import Image1 from '../../assets/userOne.svg';
+import Image1 from '../../assets/heroOne.jpg';
+import Image3 from  '../../assets/userOne.svg'
 import Image2 from '../../assets/userTwo.svg';
 import {Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
@@ -18,7 +19,7 @@ function Testimionials() {
       spaceBetween={30}
       slidesPerView={1}
       loop = {true}
-      grabCursor={1}
+      grabCursor={2}
       pagination={{ clickable: true }}
 
       className='testimionials_container grid'>
@@ -33,9 +34,27 @@ function Testimionials() {
 
           <SwiperSlide className='testimionials_item'>
             <div className='thumb'>
+              <img src={Image3} className='testimionials_img' alt='photo'/>
+            </div>
+            <h3 className='testimionials_title'>Nyi Naing</h3>
+            <span className='subtitle'>Product Designer at Dribble</span>
+            <div className='comment'>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good Luck👍.</div>
+          </SwiperSlide>
+
+          <SwiperSlide className='testimionials_item'>
+            <div className='thumb'>
               <img src={Image2} className='testimionials_img' alt='photo'/>
             </div>
             <h3 className='testimionials_title'>Nyan Twan</h3>
+            <span className='subtitle'>Product Designer at Dribble</span>
+            <div className='comment'>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good Luck👍.</div>
+          </SwiperSlide>
+
+          <SwiperSlide className='testimionials_item'>
+            <div className='thumb'>
+              <img src={Image2} className='testimionials_img' alt='photo'/>
+            </div>
+            <h3 className='testimionials_title'>Thein Lwin</h3>
             <span className='subtitle'>Product Designer at Dribble</span>
             <div className='comment'>I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good Luck👍.</div>
           </SwiperSlide>

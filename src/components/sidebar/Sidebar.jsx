@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <aside className='aside'>
       <a href='#home' className='nav_logo'>
-        Unknown <span>Coder</span>
+        UNK <span>Coder</span>
       </a>
 
       <nav className='nav'>

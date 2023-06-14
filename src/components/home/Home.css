@@ -5,7 +5,12 @@
     margin-bottom: 1.5rem;
 }
 .home_home{
-   background-image: url('../../assets/background.jpg');
+   background-image: url('../../assets/background.png');
+   background-position:center;
+   background-attachment: scroll;
+   background-size: 30%;
+   background-repeat: no-repeat;
+
 }
 .home{
     position: relative;

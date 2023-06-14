@@ -33,7 +33,6 @@
 .timeline .icon-briefcase{
     position: absolute;
     left: -0.4375rem;
-    top: 0;
     font-size: var(--h2-font-size);
     color: var(--first-color);
     background-color: var(--container-color);

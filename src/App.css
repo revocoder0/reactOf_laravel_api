@@ -17,3 +17,66 @@ body{
     transform: rotate(360deg);
   }
 }
+#light{
+  background-color: #fff;
+}
+#dark{
+  background-color: #000;
+}
+#dark .aside{
+  background-color: #000;
+}
+#dark .nav_link{
+  color: #fff;
+}
+#light .nav_link{
+  color: #000;
+}
+#dark .nav_link:hover, #light .nav_link:hover{
+  color: var(--first-color);
+}
+#dark .copyright{
+  color: var(--title-color);
+}
+
+#dark .section_title{
+  color: var(--first-color);
+}
+#dark .intro, #dark .home_name{
+  color: #fff !important;
+}
+
+#dark .home_scroll-name{
+  color: #fff !important;
+}
+#dark .wheel{
+  background-color: #fff;
+}
+#dark .timeline{
+  background: #828181;
+  color: #000;
+}
+#dark .timeline_date{
+  color:#fff;
+}
+#dark .about_data{
+  background-color:#828181;
+  color: #fff;
+}
+#light .about_data{
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.875rem;
+  align-items: flex-start;
+  position: relative;
+}
+#dark .skills_name{
+  color: #fff;
+}
+#dark .darkMode_icon,#dark .work_thumbnial, #dark .work_card, #dark .comment, #dark .blog_card,#dark .contact_form-input{
+  background-color: #828181;
+  color:#fff;
+}

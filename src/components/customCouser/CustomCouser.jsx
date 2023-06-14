@@ -7,8 +7,8 @@ const CustomCouser = () => {
     React.useEffect(()=>{
         document.addEventListener('mousemove', (event)=>{
             const {clientX, clientY} = event;
-            const mouseX = clientX - cursorRef.current.clientWidth /2;
-            const mouseY = clientY - cursorRef.current.clientHeight /2;
+            const mouseX = clientX - cursorRef.current.clientWidth / 3;
+            const mouseY = clientY - cursorRef.current.clientHeight /3 ;
             cursorRef.current.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
         })
     })

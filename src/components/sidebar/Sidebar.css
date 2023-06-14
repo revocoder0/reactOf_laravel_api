@@ -3,7 +3,7 @@
     left: 0;
     top: 0;
     background-color: var(--body-color);
-    border-right :1px solid rgba(1, 1.2, 0, 0.15) ;
+    border-right :1px solid var(--first-color);
     padding: 2.5rem;
     width: 110px;
     min-height: 100vh;
@@ -53,3 +53,10 @@
     padding: 0.875rem;
     cursor: pointer;
 } */
+
+
+@media screen and(max-width:720) {
+    .aside{
+      background-color: red;
+    }
+  }
